@@ -1,0 +1,31 @@
+# 1. 个人隐私与运行时数据（最重要！防止剪贴板历史记录和截图泄露）
+data/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite3
+
+# 2. 打包产物与快捷方式（打包生成的 .exe 建议通过 GitHub Releases 发布）
+build/
+dist/
+*.spec
+*.exe
+*.lnk
+
+# 3. Python 编译缓存、测试缓存与虚拟环境
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# 4. 编辑器配置与系统杂项文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.env
+
+# 5. 可选：如果不想公开制作提示词文档，删除下面这行开头的 # 号即可
+  分步制作提示词.md
